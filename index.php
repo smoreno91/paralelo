@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="favicon.png">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Paralelo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
