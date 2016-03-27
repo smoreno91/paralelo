@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/BebasNeue.otf);
+}
 body {
     overflow-x:hidden;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -46,15 +50,35 @@ h1, h2, h3, h4, h5, h6 {
     text-transform:uppercase;
     font-weight:700;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:hover, 
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
     color:#fff;
     background-color:#D25D79;
     border-color:#D25D79;
 }
-.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
     background-image:none;
 }
-.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
     background-color:#E5007E;
     border-color:#E5007E;
 }
@@ -73,15 +97,35 @@ h1, h2, h3, h4, h5, h6 {
     font-size:18px;
     padding:20px 40px;
 }
-.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     color:#fff;
     background-color:#D25D79;
     border-color:#D25D79;
 }
-.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     background-image:none;
 }
-.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
     background-color:#E5007E;
     border-color:#E5007E;
 }
@@ -97,7 +141,10 @@ h1, h2, h3, h4, h5, h6 {
     color:#E5007E;
     font-family:"Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
     color:#D25D79;
 }
 .navbar-default .navbar-collapse {
@@ -110,7 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-toggle .icon-bar {
     background-color:#fff;
 }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color:#E5007E;
 }
 .navbar-default .nav li a {
@@ -120,7 +168,8 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing:1px;
     color:#000;
 }
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
     color:#E5007E;
     outline:0;
 }
@@ -129,7 +178,8 @@ h1, h2, h3, h4, h5, h6 {
     color:#fff;
     background-color:#E5007E;
 }
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     color:#fff;
     background-color:#D25D79;
 }
@@ -218,9 +268,10 @@ section {
     padding:100px 0;
 }
 section h2.section-heading {
-    font-size:40px;
+    font-size:50px;
     margin-top:0;
     margin-bottom:15px;
+    font-family: Bebas;
 }
 section h3.section-subheading {
     font-size:16px;
@@ -239,17 +290,17 @@ section h3.section-subheading {
     margin:15px 0;
     text-transform:none;
 }
-#portfolio .portfolio-item {
+#informacion .portfolio-item {
     margin:0 0 15px;
     right:0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#informacion .portfolio-item .portfolio-link {
     display:block;
     position:relative;
     max-width:400px;
     margin:0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#informacion .portfolio-item .portfolio-link .portfolio-hover {
     background:rgba(230, 0, 126, .9);
     position:absolute;
     width:100%;
@@ -259,10 +310,10 @@ section h3.section-subheading {
     -webkit-transition:all ease .5s;
     -moz-transition:all ease .5s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#informacion .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity:1;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#informacion .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position:absolute;
     width:100%;
     height:20px;
@@ -272,34 +323,37 @@ section h3.section-subheading {
     margin-top:-12px;
     color:#fff;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#informacion .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top:-12px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#informacion .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#informacion .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin:0;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#informacion .portfolio-item .portfolio-caption {
     max-width:400px;
     margin:0 auto;
     background-color:#fff;
     text-align:center;
     padding:25px;
 }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#informacion .portfolio-item .portfolio-caption h4 {
     text-transform:none;
     margin:0;
+    font-family: Bebas;
+    font-size: 26px;
 }
-#portfolio .portfolio-item .portfolio-caption p {
+#informacion .portfolio-item .portfolio-caption p {
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style:italic;
     font-size:16px;
     margin:0;
 }
-#portfolio * {
+#informacion * {
     z-index:2;
 }
 @media (min-width:767px) {
-    #portfolio .portfolio-item {
+    #informacion .portfolio-item {
         margin:0 0 30px;
     }
 }
@@ -391,11 +445,15 @@ section h3.section-subheading {
     margin-top:0;
     color:inherit;
     text-align:left;
+    font-family:Bebas;
+    font-size: 1.8em;    
 }
 .timeline .timeline-heading h4.subheading {
     text-transform:none;
 }
-.timeline .timeline-body>p, .timeline .timeline-body>ul, .timeline .timeline-body>ol {
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul,
+.timeline .timeline-body>ol {
     margin-bottom:0;
     text-align:left;
 }
@@ -501,7 +559,8 @@ section#contact .section-heading {
 section#contact .form-group {
     margin-bottom:25px;
 }
-section#contact .form-group input, section#contact .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding:20px;
 }
 section#contact .form-group input.form-control {
@@ -594,9 +653,15 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .portfolio-modal .modal-content h2 {
     margin-bottom:15px;
     font-size:3em;
+    font-family:Bebas;
+}
+.portfolio-modal .modal-content h4 {
+    font-family:Bebas;
+    font-size:2em;
 }
 .portfolio-modal .modal-content p {
     margin-bottom:30px;
+    text-align:left;
 }
 .portfolio-modal .modal-content p.item-intro {
     margin:20px 0 30px;
@@ -676,7 +741,14 @@ body {
     text-align:justify;
 }
 
-section#about h3.section-subheading {
+#about {
+    background: url("../img/informacion-bg.png");
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    -o-background-size:cover;
+}
+#about h3.section-subheading {
     margin-bottom:75px;
     text-align:left;
 }

@@ -57,11 +57,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#services">Información</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Información</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Consejos</a>
@@ -85,13 +85,13 @@
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
                 <div class="intro-heading">¡Estamos para ayudarte!</div>
-                <a href="#services" class="page-scroll btn btn-xl">¡Dime más!</a>
+                <a href="#informacion" class="page-scroll btn btn-xl">¡Dime más!</a>
             </div>
         </div>
     </header>
 
     <!-- Services Section -->
-    <section id="services">
+    <!-- <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -190,100 +190,94 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="informacion" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Información</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/mision-vision.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Misión y visión</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/objetivo-y-publico.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Objetivos y público objetivo</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/puntos-de-enfoque.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Puntos de enfoque</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/historia.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Historia</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/que-es.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>¿Qué es equidad de género?</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#modal-6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/trabajo.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Equidad de género en el trabajo</h4>
                     </div>
                 </div>
             </div>
@@ -533,7 +527,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">Copyright &copy; Paralelo 2016</span>
                 </div>
                 <div class="col-md-4">
                     <!-- <ul class="list-inline social-buttons">
@@ -561,7 +555,7 @@
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -574,18 +568,15 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <!-- <h2>Misión y visión</h2> -->
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/mision-vision-preview.png" alt="">
+                            <h4 class="service-heading">Misión</h4>
+                            <p class="text-muted">El próposito del proyecto es ayudar a las mujeres universitarias a la hora de conseguir empleo por primera vez, buscando una igualdad en el momento de presentarse, mostrando a los usuarios que todos tienen las mismas oportunidades, solo que es cuestion de saber como presentarse, logrando asi un mejor futuro laboral para las mujeres universitarias. </p>
+
+                            <h4 class="service-heading">Visión</h4>
+                            <p class="text-muted">Tenemos una clara visión a largo plazo, pues conforme al tiempo nos adaptaremos a los cambios empresariales, logrando llevar a cabalidad los diferentes procesos que las mujeres pasan a la hora de presentarse en un trabajo por primera vez, donde se lograra mayor aceptación en el ambito laboral.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -594,7 +585,7 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -606,12 +597,24 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <!-- <h2>Objetivo y público objetivo</h2> -->
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/objetivo-y-publico-preview.png" alt="">
+                            <h4 class="service-heading">Objetivos</h4>
+                            <p class="text-muted">Hacer conocer los derechos de la mujer, estos no son muy conocidos por la sociedad y por tanto, no se hacen valer o sencillamente abusan de ellos.</p>
+
+                            <p class="text-muted">Lograr una tranquilidad y confianza de las estudiantes cuando se presentan a un trabajo, mostrando los diferentes puntos que deben tener en cuenta a la hora de asistir a una empresa.</p>
+
+                            <p class="text-muted">Mostrar los requisitos básicos para una exitosa entrevista en cuanto a códigos de vestuario, forma de comunicarse, expresarse, como presentar su hoja de vida y portafolio.</p>
+
+                            <h4 class="service-heading">Público objetivo</h4>
+                            <p class="text-muted">Es una marca pensada en mujeres universitarias que cursan los últimos semestres, que están realizando procesos de prácticas profesionales, que serán guiadas para presentarse en un trabajo por primera vez, quienes serán convocadas  por medio de piezas informativas, charlas, visitas y ayudas psicológicas.</p>
+
+                            <p class="text-muted">Logrando eliminar miedos y barreras impuestas por la sociedad, frente a las mujeres para buscar empleo, tienen las mismas capacidades que un hombre para lograr los retos que se presenten.</p>
+
+                            <p class="text-muted">Su idea principal es mostrar las diferentes capacidades que se pueden explotar a la hora de presentarse a un trabajo, teniendo en cuenta la hoja de vida, portafolio, presentación personal, que decir a la hora de una entrevista y sobre todo saber en que tipo de empresa presentarse de acuerdo a las habilidades que cada persona tiene.</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -620,7 +623,7 @@
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -633,12 +636,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Puntos de enfoque</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/puntos-de-enfoque-preview.png" alt="">
+
+                            <p class="text-muted">Esta campaña se centrara en las diferentes universidades del área metropolitana, buscando mayor aceptación por parte de las estudiantes de últimos semestres, quienes son las que más problemas para encontrar trabajo tienen, por diferentes motivos como no saber buscar empresas apropiadas para desarrollar su carrera, en la realización de hojas de vida que es la primera impresión o no saber que contestar en el momento de la entrevista con la empresa.</p>
+
+                            <p class="text-muted">Por tanto se realizaran diferentes tipos de actividades para lograr una mayor acogida del público objetivo, como visitas a diferentes empresas, charlas con expertos para saber presentarse e ingresar a las empresas y también tendrá un apoyo de una página web.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -647,7 +652,7 @@
     </div>
 
     <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -660,12 +665,18 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Historia</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/historia-preview.png" alt="">
+                            
+                            <p class="text-muted">Se proclama que:</p>
+                            <p class="text-muted">Se reafirma la fe en los derechos fundamentales del ser humano, en la dignidad y el valor de la persona humana, en la igualdad de derechos entre los hombres y las mujeres y de las naciones grandes y pequeñas</p>
+
+                            <p class="text-muted">Entre 1947 y 1962, la Comisión se centró en establecer normas y formular convenciones internacionales que cambiaran las leyes discriminatorias y aumentaran la sensibilización mundial sobre las cuestiones de la mujer. En sus aportaciones a la redacción de la Declaración Universal de Derechos Humanos, la Comisión defendió con éxito la necesidad de suprimir las referencias a “los hombres” como sinónimo de la humanidad, y logró incorporar un lenguaje nuevo y más inclusivo.</p>
+
+                            <p class="text-muted">En 1963, los esfuerzos para consolidar las normas relativas a los derechos de la mujer condujeron a la Asamblea General de las Naciones Unidas a solicitar a la Comisión que elaborara una Declaración sobre la eliminación de la discriminación contra la mujer, que la Asamblea aprobó en última instancia en 1967.</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -674,7 +685,7 @@
     </div>
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -687,12 +698,20 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>¿Qué es equidad de género?</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/que-es-preview.png" alt="">
+                            <p class="text-muted">El concepto de equidad está vinculado a la justicia, imparcialidad e igualdad social.</p>
+
+                            <p class="text-muted">El género, por otra parte, permite agrupar a los seres que tienen uno o varios caracteres comunes, lo que hace referencia al tipo de relaciones que se establecen entre hombres  y mujeres de una sociedad particular, teniendo en cuenta las características los roles, las oportunidades y las posibilidades que el grupo social asigna a cada uno de aquellos y aquellas que la conforman.</p>
+
+                            <p class="text-muted">El concepto de Equidad de Género, hace referencia a la construcción de relaciones equitativas, entre hombres y mujeres, desde sus diferencias, tanto como a la igualdad de derechos, al reconocimiento de su dignidad como seres humanos y a la valoración equitativa de sus aportes a la sociedad.</p>
+
+                            <p class="text-muted">La equidad de género, es dar a cada quien lo que le corresponde, dejando a un lado las discriminaciones hacia hombres o mujeres, siendo la base de la justicia social, lo cual permite el desarrollo de una sociedad justa, equilibrada, donde predomina los Derechos Humanos.</p>
+                            
+                            <p class="text-muted">Se trata, de eliminar las diferencias, sino en valorarlas y darles un trato equivalente para superar las condiciones que mantienen las desigualdades sociales.</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -701,7 +720,7 @@
     </div>
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="modal-6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -714,12 +733,17 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Equidad de género en el trabajo</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/trabajo-preview.png" alt="">
+                            
+                            <p class="text-muted">En ciertos países, la equidad de género es un tema avanzado con la implementación de  ciertas políticas para erradicar la problemática en puestos de trabajo. Sin embargo, existen otros con mucha lentitud, lo cual se puede evidenciar; la desigualdad de salario, lo cual los hombres ganan mucho más, repartición de funciones desequilibradas, acoso sexual hacia las mujeres, negación de puestos de trabajo hacia el sexo femenino, por una u otra razón como: embarazo, por su estado civil de casado, con hijos, entre otras.</p>
+
+                            <p class="text-muted">Todo lo mencionado anteriormente, debe de inducir o impulsar a la sociedad a luchar contra la discriminación de género, y por conseguir un trato justo para hombres y mujeres, con iguales oportunidades de trabajo, sin diferenciar entre ambos sexos por motivos de condición social, sexual, o género.</p>
+
+                            <p class="text-muted">En materia laboral, es más difícil para la mujer encontrar  empleo, se encontró que en el sector privado, cuando una mujer  asume un empleo, con igual grado de capacitación y responsabilidad de un hombre, esta recibe menor salario, de igual manera muy pocas mujeres, reciben cargos directivos  ó de elección popular, para lo cual su participación es  menor que la de los hombres.</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
                 </div>
